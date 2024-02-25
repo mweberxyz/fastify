@@ -1,5 +1,7 @@
 'use strict'
 
+// autocannon-opts: -i ./body.json -H "content-type:application/jsoff" -m POST
+
 const fastify = require('../../fastify')({
   logger: false
 })
