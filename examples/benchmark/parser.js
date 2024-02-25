@@ -1,6 +1,6 @@
 'use strict'
 
-// autocannon-opts: -i ./examples/benchmark/body.json -H "content-type:application/jsoff" -m POST
+// autocannon-opts: -i ./body.json -H "content-type:application/jsoff" -m POST
 
 const fastify = require('../../fastify')({
   logger: false
