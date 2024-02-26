@@ -13,4 +13,6 @@ jobs:
       node-versions: '[16,18,20]'
       benchmarks-dir: 'examples/benchmark'
       runs-on: 'self-hosted'
+      bench-runs: '2'
+      bench-duration: '10'
 
