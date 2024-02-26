@@ -12,4 +12,5 @@ jobs:
     with:
       node-versions: '[16,18,20]'
       benchmarks-dir: 'examples/benchmark'
+      runs-on: 'self-hosted'
 
