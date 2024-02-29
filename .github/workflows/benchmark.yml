@@ -12,6 +12,5 @@ jobs:
     with:
       node-versions: '[16,18,20]'
       benchmarks-dir: 'examples/benchmark'
-      bench-runs: '1'
-      bench-duration: '30'
+      bench-duration: '10'
 
